@@ -22,8 +22,12 @@ function LoginPage() {
       </header>
       <article className="login-page__main">
         <h2>
-          See <strong>The World</strong>, <br />
-          Through Open Space.
+          See
+          {' '}
+          <strong>The World</strong>
+          ,
+          <br />
+          Through Open Space App.
         </h2>
 
         <LoginInput login={onLogin} />
